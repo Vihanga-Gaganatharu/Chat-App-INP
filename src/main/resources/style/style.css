@@ -1,0 +1,88 @@
+.bg{
+    -fx-background-color: linear-gradient( to left, #ffffff 0%, #7ff6c6 100%);
+}
+.textBox{
+    -fx-font-size: 20;
+    -fx-border-radius: 40;
+    -fx-background-radius: 40;
+    -fx-border-color: #f3e70e;
+    -fx-text-fill: #000000;
+
+}
+.loginbtn{
+    -fx-background-radius: 50;
+    -fx-border-radius: 50;
+    -fx-background-color: #00ffa1;
+    -fx-text-fill: #000000;
+}
+.loginbtn:hover{
+    -fx-background-color: #00b2ff;
+    -fx-text-fill: #000000;
+}
+.bgPane{
+    -fx-background-color: linear-gradient( to left, #99f3cf 0%, #ffffff 100%);
+}
+.pane{
+    -fx-background-radius: 15;
+    -fx-border-radius: 15;
+    -fx-border-color: #25eea3;
+    -fx-background-color: linear-gradient( to left, #ffffff 0%, #03fd94 100%);
+    -fx-text-fill: #000000;
+    -fx-opacity: 100;
+}
+
+.lablebtn{
+    -fx-border-color: #000000;
+    -fx-border-radius: 50;
+    -fx-background-radius: 50;
+    -fx-text-alignment: Center;
+}
+.lablebtn:hover{
+    -fx-background-color: #25eea3;
+    -fx-text-fill: #000000
+}
+.btncrud{
+    -fx-background-color: #faf587;
+    -fx-border-color: #000000;
+    -fx-border-radius: 30;
+    -fx-background-radius: 30;
+
+}
+.sidePane{
+    -fx-background-radius: 15;
+    -fx-border-radius: 15;
+    -fx-border-color: #000000;
+    -fx-background-color: #FEEDF4;
+    -fx-text-fill: #000000;
+    -fx-opacity: 100;
+}
+.font{
+    -fx-font-family: "Noto Sans";
+    -fx-text-fill: #f7ff00;
+}
+
+.chat-area {
+    -fx-background-color: #f5f5dc; /* Background color for the chat area */
+    -fx-font-family: Noto Emoji;
+    -fx-text-fill: #333333; /* Text color for the chat messages */
+    -fx-font-size: 20px; /* Adjust font size as needed */
+    -fx-padding: 10px; /* Adjust padding as needed */
+    -fx-border-color: #bdc3c7; /* Border color for the chat area */
+    -fx-border-width: 1px; /* Border width for the chat area */
+    -fx-border-radius: 5px; /* Rounded corners for the chat area */
+    -fx-wrap-text: true; /* Wrap text to the next line when it exceeds the width */
+}
+.stopbtn{
+    -fx-background-radius: 50;
+    -fx-border-radius: 50;
+    -fx-background-color: #bd1904;
+    -fx-text-fill: #000000;
+}
+.stopbtn:hover{
+    -fx-background-color: #ffffff;
+    -fx-text-fill: #000000;
+}
+.textSize{
+    -fx-font-size: 30;
+    -fx-text-fill: #000000;
+}

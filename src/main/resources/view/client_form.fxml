@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="720.0" prefWidth="1024.0" styleClass="bg" stylesheets="@../style/style.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.chatappvihanga.controller.ClientFormController">
+    <children>
+        <TextField fx:id="txtMsg" layoutX="71.0" layoutY="641.0" onAction="#btnSendOnAction" prefHeight="48.0" prefWidth="570.0" promptText="Enter Your Massege" styleClass="textBox">
+            <font>
+                <Font size="18.0" />
+            </font>
+        </TextField>
+        <Button layoutX="751.0" layoutY="645.0" mnemonicParsing="false" onAction="#btnSendOnAction" prefHeight="40.0" prefWidth="133.0" styleClass="loginbtn" text="Send" textFill="#f6ff00">
+            <font>
+                <Font name="System Bold" size="19.0" />
+            </font></Button>
+        <Button layoutX="684.0" layoutY="647.0" mnemonicParsing="false" onAction="#btnFileOnAction" prefHeight="27.0" prefWidth="33.0" styleClass="btncrud">
+            <graphic>
+                <ImageView fitHeight="29.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="@../assets/Report.png" />
+                    </image>
+                </ImageView>
+            </graphic>
+        </Button>
+        <ImageView fitHeight="103.0" fitWidth="133.0" layoutX="917.0" layoutY="3.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@../assets/icons8-chat.gif" />
+            </image>
+        </ImageView>
+      <Label fx:id="lblName" layoutX="366.0" layoutY="19.0" prefHeight="62.0" prefWidth="337.0" text="Label">
+         <font>
+            <Font name="System Bold" size="42.0" />
+         </font>
+      </Label>
+      <ScrollPane layoutX="33.0" layoutY="107.0" prefHeight="451.0" prefWidth="958.0">
+         <content>
+            <VBox fx:id="msgVboxAp" prefHeight="454.0" prefWidth="943.0" styleClass="chat-area" stylesheets="@../style/style.css" />
+         </content>
+      </ScrollPane>
+      <ImageView fitHeight="48.0" fitWidth="47.0" layoutX="227.0" layoutY="573.0" onMouseClicked="#emoji1OnAction" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/emj1.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="48.0" fitWidth="47.0" layoutX="288.0" layoutY="573.0" onMouseClicked="#emoji2OnAction" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/emj2.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="48.0" fitWidth="47.0" layoutX="347.0" layoutY="573.0" onMouseClicked="#emoji3OnAction" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/emj3.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="48.0" fitWidth="47.0" layoutX="403.0" layoutY="573.0" onMouseClicked="#emoji4OnAction" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/emj4.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="48.0" fitWidth="47.0" layoutX="460.0" layoutY="573.0" onMouseClicked="#emoji5OnAction" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/emj5.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="48.0" fitWidth="47.0" layoutX="512.0" layoutY="573.0" onMouseClicked="#emoji6OnAction" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/emj6.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="48.0" fitWidth="47.0" layoutX="568.0" layoutY="573.0" onMouseClicked="#emoji7OnAction" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/emj7.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="54.0" fitWidth="74.0" layoutX="630.0" layoutY="570.0" onMouseClicked="#emoji8OnAction" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/emj8.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="48.0" fitWidth="46.0" layoutX="695.0" layoutY="574.0" onMouseClicked="#emoji9OnAction" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/emj9.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="btnBack" layoutX="39.0" layoutY="29.0" mnemonicParsing="false" onAction="#btnBackOnAction" prefHeight="39.0" prefWidth="103.0" styleClass="btncrud" text="Back">
+         <font>
+            <Font name="System Bold" size="19.0" />
+         </font></Button>
+    </children>
+</AnchorPane>

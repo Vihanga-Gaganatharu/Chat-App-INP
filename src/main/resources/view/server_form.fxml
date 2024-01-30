@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXTextArea?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="720.0" prefWidth="657.0" styleClass="bg" stylesheets="@../style/style.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.chatappvihanga.controller.ServerFormController">
+    <children>
+        <Text layoutX="68.0" layoutY="85.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Server" wrappingWidth="259.13671875">
+            <font>
+                <Font name="System Bold" size="48.0" />
+            </font>
+        </Text>
+      <JFXTextArea fx:id="txtArea" layoutX="37.0" layoutY="124.0" prefHeight="490.0" prefWidth="567.0" />
+      <VBox layoutX="59.0" layoutY="124.0" prefHeight="490.0" prefWidth="524.0" styleClass="font" />
+      <Button layoutX="447.0" layoutY="636.0" mnemonicParsing="false" onAction="#btnStopOnAction" prefHeight="46.0" prefWidth="114.0" styleClass="stopbtn" text="Stop" textFill="#df1a1a">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Button>
+    </children>
+</AnchorPane>
